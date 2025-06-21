@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    border: 2px solid lightgray;
+    padding: 1em;
+}
+
+nav button {
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 0;
+    padding: 0.4em 1.1em;
+    cursor: pointer;
+}
+
+#content {
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home {
+    position: absolute;
+    left: 10%;
+}
+
+#home-title {
+    font-family: "Bebas Neue";
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+
+#home-hero-text {
+    font-family: "Inter Tight";
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+#home-paragraph {
+    font-size: 20px;
+    max-width: 500px;
+    font-weight: 300;
+}
+
+
+
+#about {
+    flex: 1;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: auto;
+}
+
+
+#about-left {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-title {
+    font-family: "Bebas Neue";
+    font-size: 50px;
+}
+
+#about-hero-text {
+    font-family: "Inter Tight";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.about-text {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#about-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+#about-image {
+    width: 500px;
+    height: 350px;
+    background-color: lightgray;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+#menu-div {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#menu-title {
+    align-self: center;
+    font-size: 50px;
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+#menu-div hr {
+    border: none;
+    margin-top: 3em;
+    background-color: rgba(201, 169, 110, 0.604);
+    height: 1px;
+    width: 90%;
+    align-self: center;
+}
+
+#menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-rows: auto;
+    gap: 4em;
+    padding: 2em;
+}
+
+#starters, #steaks {
+    display: flex;
+    flex-direction: column;
+    padding: 0 6em;
+}
+
+.section-title {
+    font-family: "Bebas Neue";
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-name {
+    font-family: "Inter Tight";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 0.5em 0;
+}
+
+.item-description {
+    font-family: "Inter Tight";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    color: #666;
+    margin: 0;
+}
+
+.item-price {
+    font-family: "Inter Tight";
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 2em;
+}
+
+#steak-image {
+    width: 100%;
+    height: 350px;
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+    margin-bottom: 2em;
+    font-family: "Inter Tight";
+    font-style: italic;
+}
