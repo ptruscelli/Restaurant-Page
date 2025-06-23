@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* general styles and header / nav bar */
 
 * {
     margin: 0;
@@ -42,6 +43,11 @@ nav button {
     justify-content: center;
 }
 
+
+/*------------------------------------------------*/
+/* Home page styles */
+
+
 #home {
     position: absolute;
     left: 10%;
@@ -69,6 +75,8 @@ nav button {
 }
 
 
+/*-----------------------------------------------------------------*/
+/* About page styles */
 
 #about {
     flex: 1;
@@ -118,6 +126,11 @@ nav button {
     display: grid;
     place-items: center;
 }
+
+
+
+/* ------------------------------------------------ */
+/* Menu page styles */
 
 #menu-div {
     display: flex;
